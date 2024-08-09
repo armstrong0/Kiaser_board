@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/simple_svg.dir/main_1.0.0.cpp.o  -o simple_svg 

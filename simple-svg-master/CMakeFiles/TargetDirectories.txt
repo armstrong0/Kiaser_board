@@ -1,0 +1,3 @@
+/home/armstrong/Desktop/Kiaser/simple-svg-master/CMakeFiles/rebuild_cache.dir
+/home/armstrong/Desktop/Kiaser/simple-svg-master/CMakeFiles/simple_svg.dir
+/home/armstrong/Desktop/Kiaser/simple-svg-master/CMakeFiles/edit_cache.dir

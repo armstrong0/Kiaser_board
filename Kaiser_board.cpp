@@ -177,7 +177,7 @@ main ()
         }
     }
     // We have 4 tracks to make, two sets of x values, one starting on the left
-    // moving right and one starting on the right and moring left
+    // moving right and one starting on the right and moving left
     // we have 4 sets of y values
 
     int startxn = x_origin + 5 * 6 * hole_spacing + hole_spacing;
@@ -366,6 +366,8 @@ main ()
     doc << Text (Point (x_origin - 45, y_origin - 10), "Start", pdpBlack,
                  Font (40, "Liberation Mono Bold"));
 
+    doc << Text (Point (x_origin + 5 * hole_spacing, y_origin - 193), "42",
+                 pdpBlack, Font (40, "Liberation Mono Bold"));
     doc << Text (Point (x_origin - 7 * hole_spacing, y_origin - 193), "52",
                  pdpBlack, Font (40, "Liberation Mono Bold"));
     doc << Text (Point (x_origin - 19 * hole_spacing, y_origin - 193), "62",
@@ -395,6 +397,12 @@ main ()
               (x_origin + 6 * hole_spacing,
                y_origin + 2 * radius + 2 * row_spacing),
               Point (x_origin + 6 * hole_spacing, y_origin + 2 * radius),
+              Stroke (4, pdpBlack));
+    doc <<
+        Line (Point
+              (x_origin + 6 * hole_spacing,
+               y_origin - 2 * radius - 2 * row_spacing),
+              Point (x_origin + 6 * hole_spacing, y_origin - 2 * radius),
               Stroke (4, pdpBlack));
     doc <<
         Line (Point

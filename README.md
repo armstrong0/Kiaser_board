@@ -11,6 +11,10 @@ That svg file when printed at 100 dot per inch will produce a temple with a nomi
 
 Various image manipulation programs can turn that svg file into a dot matrix image file which in turn can be used by splittopages the get two files that will print onto 8.5 x 11.  
 
+I used gimp to convert the file to jpq.  Then used imagemagick to split into two pages.  
+
+magick Kaiser_board.jpg -crop 2x1@ +repage %02d.jpg
+
 The template is 17 inches long!
 
 Feel free to use and or modify this...

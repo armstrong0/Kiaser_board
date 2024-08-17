@@ -15,6 +15,8 @@ I used gimp to convert the file to jpq.  Then used imagemagick to split into two
 
 magick Kaiser_board.jpg -crop 2x1@ +repage %02d.jpg
 
+I then used gimp with pixels/inch set to 100 to print the two pieces.
+
 The template is 17 inches long!
 
 Feel free to use and or modify this...
